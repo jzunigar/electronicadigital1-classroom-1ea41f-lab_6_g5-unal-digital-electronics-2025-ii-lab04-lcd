@@ -131,19 +131,13 @@ Durante la simulación se verificó que los cambios en los switches producían u
 
 ### Evidencias
 
-Agregar capturas de:
+-GTKwave
 
-- GTKWave
-- ModelSim
-- Digital
 
-Mostrando las señales:
 
-- Clock
-- Estado de la FSM
-- RS
-- E
-- Bus de datos
+
+
+
 
 ---
 
@@ -164,10 +158,8 @@ Las conexiones utilizadas fueron:
 | RW | GND |
 | RS | Control |
 | E | Enable |
-| D4 | Datos |
-| D5 | Datos |
-| D6 | Datos |
-| D7 | Datos |
+| D0 a D7 | Datos |
+
 
 ## Configuración en Quartus
 
